@@ -1,0 +1,63 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 812px;
+}
+.home-title{
+    margin-top: 40px;
+    font-family: "Paytone One", sans-serif;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 1.2;
+        color: #fee41a;
+text-shadow:
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000,
+        0px -2px 0 #000,
+        0px 2px 0 #000,
+        -2px 0px 0 #000,
+        2px 0px 0 #000;
+}
+.home-text{
+    margin-top: 40px;
+        font-weight: 500;
+        font-size: 24px;
+        margin-bottom: 20px;
+}
+.home-link{
+    margin-top: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        border-radius: 6px;
+        padding: 10px 12px;
+        width: 180px;
+        height: 57px;
+        margin-left: auto;
+        margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+.home-section {
+        background-image: url("/img/home/desk.png");
+height: 759px;
+}
+.home-title {
+font-size: 80px;
+}
+.home-text {
+font-size: 32px;
+margin-bottom: 16px;
+}
+.home-link {
+margin-top: 64px;
+margin-left: 0;
+margin-right: auto;
+}
+.home-text-two{
+    width: 544px;
+}
+}
