@@ -27,4 +27,8 @@ text-shadow:
 body{
   font-size: 18px;
 }
+h2{
+  font-size: 64px;
+  margin-bottom: 64px;
+}
 }
