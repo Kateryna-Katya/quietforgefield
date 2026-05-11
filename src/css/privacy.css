@@ -1,0 +1,84 @@
+@import url('./styles.css');
+
+.background {
+    text-align: left;
+}
+
+.privacy-title {
+    margin-top: 70px;
+    margin-bottom: 30px;
+font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #15171c;
+    text-shadow: none;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+
+}
+
+.policy-number {
+    padding-left: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+
+}
+.article{
+    font-family: "Fredoka", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.3;
+        margin-bottom: 20px;
+}
+.text {
+    margin-top: 20px;
+}
+
+
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1440px) {
+    .privacy-title {
+font-size: 64px;
+    }
+
+    .policy-subtitle {
+    font-size: 32px;
+    }
+    .article{
+font-size: 20px;
+    }
+}
